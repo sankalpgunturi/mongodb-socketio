@@ -22,7 +22,8 @@ When implementing in macOS, open three terminals:
 3. The third terminal should run our Node.JS code[^3], like this:
 
 ```
-node index.js
+npm install
+npm run start
 ```
 
 ### Screenshots of execution
