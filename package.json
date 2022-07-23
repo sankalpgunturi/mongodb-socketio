@@ -1,13 +1,25 @@
 {
-  "name": "test",
+  "name": "mongodb-socketio",
   "version": "1.0.0",
-  "description": "",
+  "description": "Integrating MongoDB Change Streams with Socket.IO",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sankalpgunturi/mongodb-socketio.git"
+  },
+  "keywords": [
+    "mongodb",
+    "socket.io"
+  ],
+  "author": "Sankalp Gunturi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sankalpgunturi/mongodb-socketio/issues"
+  },
+  "homepage": "https://github.com/sankalpgunturi/mongodb-socketio#readme",
   "dependencies": {
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
