@@ -24,6 +24,19 @@ When implementing in macOS, open three terminals:
 node index.js
 ```
 
+### Screenshots of execution
+1. Connect to `localhost:27017` on [MongoDB Compass](https://www.mongodb.com/products/compass).
+2. Create a Database, and name it `chat`. Also create a collection in that database, and name it `messages`:
+![Newly_Created_DB](/assets/Newly_Created_DB.png)
+3. Follow `How to run?` from above, and add data into the collection:
+![Insert_first_Message](/assets/Insert_first_Message.png)
+4. Check out the browser with `localhost:3000`:
+![Check_out_browser](/assets/Check_out_browser.png)
+5. Update message in DB:
+![Update_first_Message](/assets/Update_first_Message.png)
+6. Check out the browser again:
+![Check_out_update_Messages](/assets/Check_out_update_Messages.png)
+
 ### References
 
 [^1]: [MongoDB docs on replica set](https://www.mongodb.com/docs/manual/tutorial/convert-standalone-to-replica-set/)
