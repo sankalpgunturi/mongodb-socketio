@@ -16,6 +16,7 @@ When implementing in macOS, open three terminals:
 
 ```
 /Users/wolfe/mongodb/bin/mongo
+>rs.initiate()
 ```
 
 3. The third terminal should run our Node.JS code[^3], like this:
